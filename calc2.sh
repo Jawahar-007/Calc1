@@ -10,6 +10,9 @@ case $input in
 	1)sum =$(($a+$b))
 	  echo $sum
 	  ;;
+	2)sub =$(($a-$b))
+	  echo $sub
+	  ;;
 	*) echo "Invalid Option"
 esac
 
